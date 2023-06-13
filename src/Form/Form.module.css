@@ -1,0 +1,17 @@
+.app{
+	margin: 20px;
+	padding: 20px;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputPoint{
+	margin-top: 10px;
+}
+
+.labelErr{
+	color: red;
+}
