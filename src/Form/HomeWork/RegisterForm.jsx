@@ -32,7 +32,7 @@ const RegisterForm = () => {
 
 	useEffect(() => {
 		setErrors(validateForm());
-	}, [email, password, repeatPassword]);
+	}, [email, password, repeatPassword, validateForm]);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
